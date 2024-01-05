@@ -1,0 +1,1143 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    color: #000;
+    font-family: Dyson Futura Regular,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+}
+/* Nav alanı*/
+nav{
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.nav1{
+  background-color: #000;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #333;
+}
+.nav1 ul{
+    display: flex;
+    margin: 0; 
+    padding: 15px;  
+}
+.nav1 ul li{
+    list-style-type: none;
+    display: inline;
+    margin: 0;     
+}
+.nav1 img{
+    width: 70px;
+    height: 30px; 
+    margin-top: 10px;
+   
+}
+.nav1 ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 300;
+    text-align: center;
+    padding: 8px;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+.nav2{
+  background-color: #000;
+  display: flex;
+  justify-content: space-around;
+}
+.nav2 ul{ 
+  list-style: none;
+  margin-right: 50px;
+}
+.nav2 ul li{
+  list-style-type: none;
+  display: inline;
+    
+  
+}
+.nav2 ul li a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+    line-height: 18px;
+    font-weight: 300; 
+    padding: 8px;
+    
+}
+/* 3 çizgili bar iconu*/
+.fa-bars{
+ font-size: large; 
+}
+
+input{
+    background: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+}
+.right{
+  padding-left: 180px;
+}
+/*Footer Alanı*/
+.cls_footer{
+  width: 100%;
+  height: 500px;
+  background-color: #000;
+  margin-bottom: 0 ; 
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner_footer{
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   
+}
+
+.footer_left{
+  border-bottom: 1px solid #333;
+  text-align: left;
+  color: #fff;
+    
+}
+.footer_left ul{
+    list-style-type: none;
+    margin-bottom: 250px;
+    text-align: left;
+    padding-right:250px;
+    
+
+}
+.footer_left ul li img{
+ width: 20px;
+ height: 20px;
+ border-radius: 50%;
+ line-height: 10px;
+ list-style-type: none;
+ 
+}
+.footer_left ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Dyson Futura Regular,sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 30px;
+
+
+}
+.footer_left ul li a:hover{
+    color: #999;
+}
+
+.footer_right ul{
+    list-style-type: none;
+    margin-bottom: 150px;
+    padding-left: 200px;
+    
+}
+.footer_right ul li{
+    margin: 0;
+    margin-top: 10px;
+}
+.footer_right ul li a{
+    color: #999;
+    line-height: 2;
+    text-decoration: none;
+}
+.footer_right li{
+    margin-bottom: 300px;   
+}
+
+.kariyer{
+    color: #fff;
+    line-height: 2;
+    text-decoration: none;
+    text-align: center;
+}
+.container img{
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+}
+.content{
+    height: 200px;
+    background-color: #fbfbfb;
+    width: 100%;
+}
+/* Butonlu alan 4'lü liste*/
+.column-25{
+   float: left;
+   display: flex;
+   width: 25%;
+   justify-content: center;
+   align-items: center;
+}
+.column-25 ul{
+  list-style-type: none;
+  text-align: left;
+  
+}
+.column-25 ul li{
+  text-decoration: underline;
+  margin-top: 2px;
+  padding: 8px;   
+  font-size: 16px;
+}
+.column-25 ul li i{
+  font-size: 20px;
+}
+
+button{
+    border: 1px solid #5c5b5b16;
+    width: 280px;
+    height: 130px;
+    margin-top: 15px;  
+}
+button:hover{
+border: 1px solid;
+}
+
+.solukyazi{
+    color:#999;
+}
+
+video{
+  width: 100%;
+  height: auto;
+ 
+}
+
+.container img{
+    width: 100%;
+    height: 700px;
+    margin-top: 0;
+}
+/* Listeli bölüm */
+.column-33 {
+    float: left;
+    width: 30%;   
+    margin: 0;
+    padding: 0; 
+  }
+  .content2:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .column-33 ul{
+    list-style-type: none;      
+  }
+  h2{
+    text-align: center;
+    font-family: Dyson Futura Regular,sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: -.01em;
+    font-size: 2.125rem;
+    line-height: 1.3;
+    color: #333;
+    text-decoration: none;
+  }
+  .column-33 ul li{
+    margin: 5px;
+    padding-left: 50px;
+
+  }
+  .column-33 ul li  p{
+   margin-right: 100px;
+    color: #333;      
+  }
+  .column-33 ul li img{
+    width: 384px;
+    height: 217px;   
+  }
+  .column-33 ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+  }
+  .column-33 ul li a i{
+    font-size: xx-large;
+    text-align: center;
+    left: 100px;
+  }
+
+  /*İkili açıklamalı bölüm*/
+
+  .column-50 {
+    float: left;
+    width: 50%;   
+    padding: 10px;  
+    position: relative;
+  
+    
+  }
+  .content3:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .column-50 ul{
+    text-align: left;
+    list-style-type: none;
+    
+  }
+  h3{
+    text-align: left;
+    font-family: Dyson Futura Regular,sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: -.01em;
+    font-size: 20px;
+    line-height: 1.3;
+    color: #333;
+    margin-top: 15px;
+    
+  }
+  .column-50 ul li{
+    
+    padding-left: 30px;
+  }
+  .column-50 ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+  }
+
+
+  .column-50 ul li img{
+    width: 590px;
+    height: 332px;
+    
+  }
+
+  /*4lü listeli bölüm*/
+  .columnn-25 {
+    float: left;
+    width: 22%;   
+    justify-content: center;
+   align-items: center;
+     
+  }
+  .content4:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .columnn-25 ul{
+    list-style-type: none;
+    text-align: left;
+    
+    
+    
+  }
+  .columnn-25 ul li {
+    padding-right: 30px;
+    padding-left: 30px;
+    
+    margin-left: 30px;
+    
+   
+    
+  }
+  .columnn-25 ul li img{
+    width: 280px;
+    height: 280px; 
+    
+   
+  }
+  h4{
+    text-align: left;
+    font-family: Dyson Futura Regular,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.4;
+    color: #333;
+    
+    text-decoration: none;
+  }
+  .columnn-25 ul li p{
+    color: #333;
+    font-size: 16px;
+  }
+
+  /*iletişim kısmı*/
+  .contact{
+    background-color: #242424;
+    height: 200px;
+   color: #fff;
+   width: 100%;
+   position: relative;
+   
+   
+  }
+
+  .contacttext{
+    float: left;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+    margin-left: 100px;
+    
+    
+  }
+  .contacttext p{
+    font-family: Dyson Futura Regular,sans-serif;
+    line-height: 1.4;
+    font-style: normal; 
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: -.01em;
+    line-height: 1.3;
+    text-align: center;
+    padding: 20px;
+    
+  }
+  .fa-phone-flip{
+    font-size: 40px;
+    align-items: center; 
+  }
+  .fa-envelope{
+    font-size: 50px;
+    margin: 0 30px;
+  }
+
+
+
+  
+  /*Chat botu*/
+
+.purple_bot{
+  position: fixed;
+
+    bottom: 20px;
+   right: 20px;
+}
+.purple_bot img{
+  width: 50px;
+   height: 50px;
+}
+
+
+
+
+
+
+
+
+/* Snackbar*/
+#Kargo,
+#iade,
+#taksit,
+#garanti{
+    visibility: hidden; 
+    width: 100%;
+    height: 130px; 
+    background-color: #fff; 
+    color: #333; 
+    text-align: left;
+    border-radius: 2px; 
+    padding: 16px;
+    position: fixed; 
+    z-index: 1; 
+    bottom: 5px;
+    list-style-type: none;
+    font-size: 18px;
+    line-height: 20px;
+    padding-left: 200px;
+
+  }
+  
+
+
+  
+  /* Snackbar tıklandığında */
+  #Kargo.show,
+  #iade.show,
+  #taksit.show,
+  #garanti.show {
+    visibility: visible; 
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  }
+ 
+  /* Snackbar animasyonu */
+  @-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  }
+  
+  @keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  }
+
+
+
+
+
+  /* SÜPÜRGELER SAYFASI BAŞLANGICI */
+ 
+.liste{
+  display: flex;  
+  justify-content:space-evenly;
+  position: relative;
+
+}
+.liste ul{
+ 
+  list-style: none;
+  text-decoration: none;
+
+}
+.liste ul li{
+  text-decoration: none;
+}
+.liste ul span img{
+    width: 60px;
+    height: 60px; 
+    
+}
+.liste ul li a{
+    font-size: .75rem;
+    font-weight: 300;
+    color: #333;
+    margin-top: 0.5rem;
+    line-height: 1rem;
+    text-decoration: none;
+    
+  
+}
+.videom{
+  position: relative;
+}
+#myVideo {
+  
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  
+   
+
+}
+
+.contentt{
+  
+  background-color: #fbfbfb;
+ 
+  position: relative;
+  text-align: left;
+ 
+}
+.contentt img{
+  width: 100%;
+  height: auto;
+}
+.top-left{
+  position: absolute;
+  top: 30%;
+  left: 30px;
+  right: 55%;
+  
+}
+.top-left ul {
+  list-style-type: none;
+}
+.top-left ul li{
+  color: #666;
+    font-family: Dyson Futura Regular,sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+}
+.top-left ul li i{
+  font-size: xx-large;
+  
+}
+.top-left ul li a{
+ 
+  font-size: 20px;
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+  
+}
+.top-left ul h2{
+  text-align: left;
+}
+.left-center{
+  position: absolute;
+  top: 8%;
+  left: 30px;
+  right: 55%;
+  
+}
+.left-center ul {
+  list-style-type: none;
+}
+.left-center ul li i{
+  font-size: xx-large;
+  
+}
+.left-center ul li a{
+ 
+  font-size: 20px;
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+  
+}
+.left-center ul h2{
+  text-align: left;
+}
+#evcil{
+  color: #333;
+    font-family: Dyson Futura Regular,sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+}
+/*Fotoğraf üzerine yazı */
+.corner{
+  width: 100%;
+ 
+  color: #fff;
+}
+.corner{
+  position: absolute;
+  top: 8%;
+  left: 30px;
+  right: 55%;
+  
+}
+.corner ul {
+  list-style-type: none;
+}
+.corner ul li i{
+  font-size: xx-large;
+  
+}
+.corner ul li a{
+ 
+  font-size: 20px;
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+  
+}
+.corner ul h2{
+  text-align: left;
+}
+.corner ul li{
+  color: #333;
+    font-family: Dyson Futura Regular,sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+}
+.corner ul li img{
+  width: 115px;
+  height: 45px;
+  
+}
+/*Uygulama indirme alanı*/
+.uygulama{
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.uygulama ul{
+  list-style: none;
+  display: flex;
+  
+}
+
+.uygulama ul li img{
+  width: 613px;
+  height: 96px;
+
+  margin: -7px;
+}
+/*Alttaki navbar*/
+.altnav{
+  width: 100%;
+  height: 70px;
+  background-color: #666;
+  display: flex;
+  
+}
+.altnav li,
+.altnav span {
+ list-style: none;
+ margin: 0;
+ padding: 0;
+ margin-top: 20px;
+ left: 110px;
+ position: relative;
+}
+.altnav li::after{
+  content: "";
+  display: inline-block;
+  margin: 0 1em;
+  vertical-align: middle;
+  border-left: 1px solid #999;
+  height: 1.6em;
+  -webkit-transform: rotate(28deg);
+  transform: rotate(28deg);
+  position: relative;
+  margin-top: -2px;
+}
+
+.altnav li a,
+.altnav span a{
+  font-family: Dyson Futura Regular,sans-serif;
+  line-height: 1.4;
+  color: #fff;
+  text-decoration: none;
+
+}
+
+
+
+
+
+
+/* SAÇ BAKIM SAYFASI BAŞLANGICI */
+
+.corner1{
+  position: absolute;
+  top: 8%;
+  left: 50px;
+  right: 50%;
+  width: 100%;
+  color: #fff;
+ 
+  
+}
+.corner1 ul {
+  list-style-type: none;
+}
+.corner1 ul li i{
+  font-size: xx-large;
+  
+}
+.corner1 ul li a{
+ 
+  font-size: 18px;
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+  
+}
+.corner1 ul h2{
+  text-align: left;
+  font-size: 24px;
+}
+.corner1 ul li{
+  color: #333;
+    font-family: Dyson Futura Regular,sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+}
+.corner1 ul li img{
+  width: 115px;
+  height: 45px;
+  
+}
+
+
+
+.contentt2 {
+  position: relative;
+  width: 100%; 
+  margin: 0 auto; 
+}
+
+ .fotoyazi {
+  position: absolute;
+  bottom: 0;
+  background:rgb(102, 102, 102); 
+  background: rgba(102, 102, 102,0.01);
+  color: #f1f1f1; 
+  width: 100%; 
+  padding: 200px;
+  
+ } 
+  .fotoyazi h2,
+  .fotoyazi h3{
+    color: #fff;
+    text-align: left;
+    font-family: Dyson Futura Regular,sans-serif;
+    margin: 10px 0;
+  }
+  .fotoyazi .buton{
+    border: 1px solid;
+    width: 120px;
+    height: 30px;
+  }
+  .bilgi{
+    border: 1px solid;
+    width: 200px;
+    height: 60px;
+  }
+  .top-left-wrap{
+    position: absolute;
+    top: 10%;
+    left: 30px;
+    right: 45%;
+    
+  }
+  .top-left-wrap ul {
+    list-style-type: none;
+  }
+  .top-left-wrap ul li{
+    color: #333;
+      font-family: Dyson Futura Regular,sans-serif;
+      font-size: 18px;
+      line-height: 28px;
+      font-style: normal;
+      font-weight: 400;
+      text-decoration: none;
+      margin: 10px 0;
+  }
+  .top-left-wrap ul li i{
+    font-size: xx-large;
+    
+  }
+  .top-left-wrap ul li a{
+   
+    font-size: 20px;
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+    
+  }
+  .top-left-wrap ul h2{
+    text-align: left;
+    font-size: 32px;
+    
+    
+  }
+  /*Fotoğraf üzeri yazı yazılan alan*/
+  .containerr {
+    position: relative;
+    width: 100%; 
+    margin: 0 auto;
+  }
+  
+   .fotoyazi2 {
+    position: absolute; 
+    bottom: 0; 
+    background:rgb(102, 102, 102); 
+    background: rgba(102, 102, 102,0.01); 
+    color: #f1f1f1; 
+    width: 100%; 
+    padding: 150px 100px;
+    
+   } 
+    .fotoyazi2 h2{
+      font-size: 40px;
+      line-height: 52px;
+      color: #fff;
+      text-align: left;
+      font-family: Dyson Futura Regular,sans-serif;
+      margin: 10px 0;
+      font-weight: 300;
+      letter-spacing: -.01em;
+    }
+    .fotoyazi2 .buton{
+      border: 1px solid;
+      width: 90px;
+      height: 30px;
+      color: #0066cc;
+     border: 1px solid #06c;
+     background-color: #fff;
+     font-size: 14px;
+     line-height: 28px;
+     margin-bottom: 14px;
+     padding: 0 12px;
+    }
+    .satinal{
+      border: 1px solid;
+      width: 120px;
+      height: 70px;
+      background:#79b928 ;
+      
+      font-size: 1.125rem;
+      cursor: pointer;
+
+    }
+    .satinal h3{
+      display: inline-block;
+      vertical-align: middle;
+      font-weight: 500;
+      max-width: 100%;
+      text-align: center;
+      border-radius: 0;
+      color: #333;
+      font-family: Dyson Futura Regular,sans-serif;
+      margin: 10px 0;
+      
+    }
+    .liste1{
+   
+      display: flex;  
+      justify-content:space-evenly;
+      align-items: center;
+    
+     }
+
+    .liste1 ul{
+      list-style: none;
+      
+    }
+   .liste1 ul span{
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     
+   
+   }
+   .liste1 ul span img{
+       width: 60px;
+       height: 60px; 
+       
+   }
+   .liste1 a{
+    font-size: .75rem;
+    font-weight: 300;
+    color: #333;
+    margin-top: 0.5rem;
+    line-height: 1rem;
+   }
+
+
+  .icerikk{
+    width: 100%;
+    height: 400px;
+  }
+  
+  .icerikk h2 {
+    text-align: left;
+    margin-left: 100px;
+    font-size: 2.125rem;
+
+  }
+  .icerikk .column-33 ul li b{
+    font-size: 1rem;
+    margin: 0.9em 0 0;
+    font-family: Dyson Futura Regular,sans-serif;
+    font-weight: 700;
+    color: #333;
+    line-height: 1.4;
+  }
+  .icerikk .column-33 ul li p{
+    font-size: 1rem;
+    margin: 0 0 0.9em;
+    color: #333;
+   
+}
+  
+  .icerikk .column-33 ul li img{
+    width: 403px;
+    height: 296px;
+  }
+ 
+  .content3 h2,
+  .content4 h3{
+    text-align: left;
+    margin-left: 80px;
+  }
+.columnnn-25{
+ float: left;
+ display: flex;
+ width: 30%;
+ justify-content: space-evenly;
+ align-items: center;
+   
+ }
+ .columnnn-25 ul{
+  list-style-type: none;
+  text-align: left;
+ 
+} 
+.columnnn-25 ul li {
+  margin-left: 50px;
+} 
+.columnnn-25 ul li img{
+  width: 403px;
+  height: 403px; 
+}
+.columnnn-25 ul li h4{
+  text-align: left;
+  font-family: Dyson Futura Regular,sans-serif;
+  line-height: 1.3;
+  color: #333;
+  margin: 1em 0;
+  font-weight: 300;
+  letter-spacing: -.01em;
+  font-size: 20px;
+  text-decoration: none;
+}
+ .columnnn-25 ul li p{
+  color: #333;
+  font-size: 20px;
+  line-height: 1.3;
+  margin: 1em 0;
+  font-weight: 300;
+  letter-spacing: -.01em;
+}
+.icerik{
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.icerik-btn{
+ width: 280px;
+ height: 90px;
+ background-color: #292929;
+ display: inline-block;
+ vertical-align: middle;
+ font-weight: 500;
+ max-width: 100%;
+ text-align: center;
+ border-radius: 0;
+
+}
+.icerik-btn a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+ 
+}
+/*Ürünler kartların olduğu alan*/
+.urunler{
+  width: 100%;
+  height:auto;
+  margin-left: 5%;
+  margin-right: 5%;
+ position: relative;
+
+
+}
+
+.card1 ,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6, 
+.card7,
+.card8 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: left;
+  font-family: Dyson Futura Regular,sans-serif;
+  width: 433px;
+  height:980px;
+  line-height: 1.3;
+  margin-top: 15px;
+
+
+}
+
+.card1 img,
+.card2 img,
+.card3 img,
+.card4 img,
+.card5 img,
+.card6 img,
+.card7 img,
+.card8 img{
+  width: 398px;
+  height: 193px;
+}
+
+.card1 p,
+.card2 p,
+.card3 p,
+.card4 p,
+.card5 p,
+.card6 p,
+.card7 p,
+.card8 p{
+  padding: 5px;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+  
+}
+
+.butonn{
+  border: none;
+  outline: 0;
+  color: #000;
+  background-color:#79b928;
+  cursor: pointer;
+  width: 100%;
+  height: 80px;
+  font-size: 18px;
+  padding: 12px;
+  text-align: center;
+ 
+}
+
+.butonn:hover{
+  opacity: 0.7;
+}
+.butonn1{
+  background-color: #fbfbfb; 
+  color: #666;
+  border: none;
+  width: 100%;
+  height: 80px;
+  font-size: 18px;
+ 
+}
+
