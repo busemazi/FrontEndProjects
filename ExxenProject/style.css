@@ -1,0 +1,281 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter Medium','proxima-nova-light',Arial,Helvetica,sans-serif !important;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffff;
+    background-color: #000000;
+}
+/*      NAVBAR ALANI    */
+.main-nav{
+    background-color: #ffcb04;
+    height: 120px;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-left{
+    width: 50%;
+    float: left;
+    list-style-type: none;
+    margin: 15px;
+    text-align: center;
+}
+.nav-left li img{
+    width: 40%;
+}
+.nav-right{
+    display: flex;
+    float: left;
+    width: 50%;
+    list-style-type: none;
+    margin: 15px;
+    text-align: center;
+}
+.nav-right li{
+    list-style-type: none;
+    margin: 10px;
+    margin-top: 30px;
+}
+.buton-ticari{
+    width: 250px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #000000;
+    color: #ffcb04;
+    border: none;
+}
+.buton-uyelik{
+    width: 110px;
+    height: 50px;
+    background-color: transparent;
+    border: 1.5px solid #000000;
+    font-size: 18px;
+    font-weight: 600;
+}
+/* DROPDOWN ALANI */
+.dilbuton .dropdown {
+    float: left;
+    overflow: hidden;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 2px;
+}
+
+.dropdown{
+    align-items: center;
+    margin-top: -10px;
+}
+.dropbtn{
+    background-color: transparent;
+    color: #000000;
+    padding: 16px;
+    font-size: 22px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.dropbtn i{
+    margin: 5px;
+}
+
+
+/*        1.İÇERİK ALANI    */
+.content-list{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    background-color: #111;
+    position: sticky;
+    padding: 15px;
+    top: 0; 
+}
+.input-list{
+    display: flex;
+    position: relative;
+    list-style-type: none;
+    margin: 0 10% 0 10%;
+}
+.input-list li{
+    margin: 15px;
+    border: 3px solid #ffcb04;
+}
+.input-list button{
+ background-color: #ffcb04;
+ color: #000000;
+ font-size: 24px;
+ font-weight: 700;
+ margin: 15px;
+ width: 300px;
+ height: 55px;
+ border: none;
+}
+
+#input{
+    width: 300px;
+    height: 50px;
+}
+#input:focus{
+    outline:#ffcb04;
+}
+#input::placeholder{
+    color: #000;
+    font-weight: 800;
+    font-size: 18px;
+    padding: 10px;
+}
+
+
+/*        2.İÇERİK ALANI    */
+.content-bg{
+    width: 70%;
+    height: 600px;
+    display: block;
+    justify-content:center;
+    align-items:center;
+    background-color: #000000;
+    padding: 40px;
+}
+.content-bg img{
+    width: 100%;
+    height: 100%;
+    margin: 0 20% 0 25%;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    cursor: pointer;
+
+}
+
+
+/*        3.İÇERİK ALANI    */
+.container{
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    padding: 0 60px;
+}
+.content{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    
+}
+.column{
+    float: left;
+    width: 25%;
+    margin: 15px;
+
+}
+.column img{
+    width:100% ;
+    height: 300px;
+}
+
+
+/*        FOOTER ALANI    */
+
+.cls_footer{
+    width: 100%;
+    height: 850px;
+    margin-bottom: 0 ; 
+    bottom: 0;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #111;
+}
+.inner-footer{
+    background-color: #000000;
+    height: 800px;
+    width: 100%;
+}
+.footer-text {
+    list-style-type: none;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.3;
+    margin: 0 20% 0 20%; 
+    text-align: center;
+    margin-top: 15px;
+}
+.inner-footer li{
+    list-style-type: none;
+    margin-bottom: 10px;
+    
+}
+.inner-footer  a{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px; 
+}
+.footer-img{
+    text-align: center;
+    margin-top: 50px;
+}
+.footer-img1{
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+}
+.footer-img1 li{
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    margin: 10px;
+}
+.footer-img1 img{
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    float: left;
+    margin: 5px;
+    border-radius:2px ;
+}
+.footer-icon{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer-icon li{
+    margin: 50px 10px;
+    text-align: center;
+
+}
+.footer-icon li a{
+  padding: 6px;
+  border-radius: 4px;
+    background-color: #fff; 
+}
+.text{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 90px;
+}
