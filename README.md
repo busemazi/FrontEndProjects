@@ -7,7 +7,9 @@
 
 # WebSiteClon Project
 Dyson markasına ait sitenin klonu olarak tasarlanmıştır. Anasayfa,Süpürgeler sayfası ve Saç bakımı olmak üzere 3 sayfa çalışılmıştır.
+
 #Projeden Görüntüler;
+
 -Anasayfa;
 <img width="1497" alt="Ekran Resmi 2024-02-13 17 49 13" src="https://github.com/busemazi/FrontEndProjects/assets/149150369/cdf20447-ef02-49c0-9dc1-b185f73f5ae0">
 
@@ -19,8 +21,12 @@ Dyson markasına ait sitenin klonu olarak tasarlanmıştır. Anasayfa,Süpürgel
 
 
 #NetflixProject 
+
 Netflixe ait sitenin klonu olarak tasarlanmıştır. Anasayfa, Login Sayfası ve Giriş Sayfası olarak 3 sayfa çalışılmıştır. Bu sayfaalra ek olarak profil yönetimi sayfası da çalışılmıştır.
+
+
 #Projeden Görüntüler;
+
 -Anasayfa;
 <img width="1536" alt="Ekran Resmi 2024-02-13 17 56 36" src="https://github.com/busemazi/FrontEndProjects/assets/149150369/faca285b-cb2e-48bb-b209-29de40cf8827">
 Oturum AÇ butonuna tıklandığında sizi login sayfasına yönlendirmektedir.
@@ -37,6 +43,7 @@ Profil yönetimi butonuna basıldığında sizi browser sayfasına yönlendirmek
 <img width="1536" alt="Ekran Resmi 2024-02-13 18 03 09" src="https://github.com/busemazi/FrontEndProjects/assets/149150369/c091f9b4-c735-44b9-b9f1-0729f690b120">
 
 #Login Page Project
+
 Kendi tasarımım olan bir login sayfası oluşturulmuştur. 
 
 #Projeden Görüntü;
