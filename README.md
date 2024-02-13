@@ -59,7 +59,7 @@ Exxene ait sitenin klonu olarak tasarlanmıştır. Anasayfa olarak tek sayfa ça
 
 Kendi tasarımım olan bir login sayfası oluşturulmuştur. 
 
-#Projeden Görüntü;
+#Projeden Görüntüler;
 <img width="1536" alt="Ekran Resmi 2024-02-13 18 07 03" src="https://github.com/busemazi/FrontEndProjects/assets/149150369/8fe72ea0-ef88-4ab2-a0e1-efed65d9047f">
 
 
