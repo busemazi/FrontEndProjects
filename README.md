@@ -5,7 +5,10 @@
 - JavaScript
 
 
-# WebSiteClon Project
+# FrontEnd Projects
+
+#WebSİteClonProject
+
 Dyson markasına ait sitenin klonu olarak tasarlanmıştır. Anasayfa,Süpürgeler sayfası ve Saç bakımı olmak üzere 3 sayfa çalışılmıştır.
 
 #Projeden Görüntüler;
@@ -22,7 +25,7 @@ Dyson markasına ait sitenin klonu olarak tasarlanmıştır. Anasayfa,Süpürgel
 
 #NetflixProject 
 
-Netflixe ait sitenin klonu olarak tasarlanmıştır. Anasayfa, Login Sayfası ve Giriş Sayfası olarak 3 sayfa çalışılmıştır. Bu sayfaalra ek olarak profil yönetimi sayfası da çalışılmıştır.
+Netflixe ait sitenin klonu olarak tasarlanmıştır. Anasayfa, Login Sayfası ve Giriş Sayfası olarak 3 sayfa çalışılmıştır. Bu sayfalara ek olarak profil yönetimi sayfası da çalışılmıştır.
 
 
 #Projeden Görüntüler;
@@ -41,6 +44,16 @@ Profil yönetimi butonuna basıldığında sizi browser sayfasına yönlendirmek
 
 -Browser Sayfası;
 <img width="1536" alt="Ekran Resmi 2024-02-13 18 03 09" src="https://github.com/busemazi/FrontEndProjects/assets/149150369/c091f9b4-c735-44b9-b9f1-0729f690b120">
+
+#ExxenProject
+Exxene ait sitenin klonu olarak tasarlanmıştır. Anasayfa olarak tek sayfa çalışılmıştır.
+
+#Projeden Görüntüler;
+
+-Anasayfa;
+<img width="1536" alt="Ekran Resmi 2024-02-13 18 11 06" src="https://github.com/busemazi/FrontEndProjects/assets/149150369/963030e8-476d-46a9-b415-d4eddccf87c4">
+
+
 
 #Login Page Project
 
