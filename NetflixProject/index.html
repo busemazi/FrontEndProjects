@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a317844617.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="fotograf/nlogo.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>Netflix</title>
+    
+</head>
+<body>
+    <!-- NAVBAR VE LOGIN ALANI -->
+    <div class="header">
+        <nav class="nav">
+
+            <div class="topnav-sol">
+            
+                <li><img src="fotograf/Logonetflix.png"></li>
+            </div>
+            
+            <div class="topnav-sag">
+                <li class="dilbuton">
+                    <div class="dropdown">
+                        <button class="dropbtn" onclick="myFunction()"><i class="fa-solid fa-language" style="color: #fff;"></i> Türkçe
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content" id="myDropdown">
+                            <a href="#">Türkçe</a>
+                            <a href="#">English</a>
+                        </div>
+                    </div> 
+                </li>
+
+                <li>
+                    <button class="btnlogin">
+                        <a href="login.html">Oturum Aç</a>
+                    </button>
+                </li>
+            </div>
+        </nav>
+
+        <div class="header-text">
+            <h1 class="bold-text">Sınırsız film, dizi ve çok daha fazlası,</h1>
+            <p class="thin-text">İstediğiniz yerde izleyin. İstediğiniz zaman iptal edin.</p>
+            <h3>İzlemeye hazır mısınız? Üye olmak ya da hesabınıza tekrar ulaşmak için tek yapmanız gereken e-posta <br>
+            adresinizi girmek.</h3>
+           
+            <div class="mail-buton">
+            
+                <form class="mail">
+                    
+                    <input type="text" id="input" required="">
+                    <label for="input" class="label">E-posta adresi</label> 
+                
+                </form>
+                <button>Başlayın <i class="fa-solid fa-chevron-right"></i></button> 
+                
+            </div>       
+
+        </div>
+
+    </div> <hr>
+
+    <!-- İÇERİKLER ALANI BAŞLANGICI  -->
+
+    <div class="container">
+        <div class="content">
+            <div class="content-text">
+                <h1 class="bold-text">Televizyonunuzda izleyin</h1>
+                <p class="thin-text">Akıllı TV, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray oynatıcılar ve daha fazlasında seyredin.</p>
+            </div>
+            <div class="content-screen">
+                 
+                <div class="ekran">
+                    <img src="fotograf/resim1.png" alt="tv">
+
+                    <div class="ekranici">
+
+                        <video  src="fotograf/video.mp4" autoplay muted loop type="video/mp4" style="width: 410px; height: 230px;">
+                        </video>
+                    </div>
+
+                </div>
+
+            </div>
+
+         </div> <hr>
+         <!-- İÇERİK-2 -->
+        <div class="content">
+            <div class="content-screen">
+                 
+                <div class="ekran">
+                    <img src="fotograf/resim2.jpg">
+
+                    <div class="ekrandisi">
+                        <div class="ekranimg">
+                            <img src="fotograf/boxshot.png" alt="" style="width: 57px; height: 80px;">
+                        </div>
+                        <div class="textt">
+                            <div class="boldtext">Stranger Things</div>
+                            <div class="thintext">İndiriliyor...</div>
+                        </div>
+                        <div class="icon"></div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="content-text">
+                <h1 class="bold-text">Çevrimdışı izlemek için içerikleri indirin</h1>
+                <p class="thin-text">En sevdiğiniz içerikleri kolayca kaydedin ve her zaman izleyecek bir şeyleriniz olsun.</p>
+            </div>
+            
+
+         </div> <hr>
+
+         <!-- İÇERİK-3 -->
+        <div class="content">
+            
+            <div class="content-text">
+                <h1 class="bold-text">İstediğiniz her yerde izleyin
+                </h1>
+                <p class="thin-text">Telefonda, tablette, bilgisayarda, televizyonda sınırsız film ve dizi izleyin.</p>
+            </div>
+
+            <div class="content-screen">
+                 
+                <div class="ekran">
+                    <img src="fotograf/resim3.png">
+
+                    <div class="ekranici1">
+
+                        <video  src="fotograf/video1.mp4" autoplay muted loop type="video/mp4" style="width: 480px; height: 270px;">
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div> <hr>
+
+        
+        <!-- İÇERİK-4 -->
+
+        <div class="content">
+            <div class="content-screen">
+                 
+                <div class="ekran">
+                    <img src="fotograf/resim4.png">
+                </div>
+
+            </div>
+            <div class="content-text">
+                <h1 class="bold-text">Çocuklarınız için profiller oluşturun.
+                </h1>
+                <p class="thin-text">Üyeliğinize dâhil olan bu ücretsiz deneyim sayesinde çocuklarınız, sadece onlara özel bir alanda en sevdikleri karakterlerle maceralara atılabilir.</p>
+            </div>
+        </div> <hr>
+    
+    
+            <!-- İÇERİK-5 -->
+        <div class="content" style="width: 100%;">
+             
+            <div class="content-sss">
+                <h1 class="bold-text">Sıkça Sorulan Sorular</h1>
+                <ul class="accordion">
+                    <li>
+                        <input type="radio" name="accordion" id="first">
+                        <label for="first">Netflix nedir?</label>
+                        <div class="SSS">
+                            <p>Netflix; internet bağlantılı binlerce cihazda ödüllü diziler, filmler, animeler, belgeseller ve daha fazlasını içeren geniş bir arşiv sunan bir streaming hizmetidir.
+                            <br><br>
+                            Tek bir reklam olmadan, istediğiniz kadar, istediğiniz zaman izleyebilirsiniz - hepsi aylık düşük bir ücret karşılığında. Her zaman keşfedilecek yeni bir şeyler var, üstelik her hafta yeni diziler ve filmler ekleniyor!</p>
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="second">
+                        <label for="second">Netflix'in maliyeti nedir?</label>
+                        <div class="SSS">
+                            <p>Netflix'i akıllı telefonunuz, tabletiniz, Akıllı TV'niz, dizüstü bilgisayarınız veya yayın cihazınızda sabit bir aylık ücretle izleyin. Aylık plan ücretleri 119,99 TL ile 229,99 TL arasında değişmektedir. Ekstra maliyet yok, sözleşme yok.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="third">
+                        <label for="third">Nerede izleyebilirim?</label>
+                        <div class="SSS">
+                            <p>İstediğiniz yerde, istediğiniz zaman izleyin. Bilgisayarınızda netflix.com adresinden veya akıllı TV'ler, akıllı telefonlar, tabletler, medya oynatıcılar ve oyun konsolları dahil Netflix uygulamasını sunan, internet bağlantılı herhangi bir cihazda anında izlemek için Netflix hesabınızla oturum açın.
+                            <br><br>
+                            Favori içeriklerinizi iOS, Android veya Windows 10 uygulamasıyla da indirebilirsiniz. Seyahatteyken ve internet bağlantısı olmadan izlemek için indirilenleri kullanın. Netflix'i her yere beraberinizde götürün.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="fourth">
+                        <label for="fourth"> Nasıl iptal ederim?</label>
+                        <div class="SSS">
+                            <p>Netflix esnektir. Sinir bozucu hiçbir sözleşme ve taahhüt yoktur. Hesabınızı çevrimiçi olarak iki tıklamayla kolayca iptal edebilirsiniz. İptal ücreti yoktur - hesabınızı istediğiniz zaman başlatın veya durdurun.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="fifth">
+                        <label for="fifth"> Netflix'te ne izleyebilirim?</label>
+                        <div class="SSS">
+                            <p>Netflix, uzun metrajlı filmler, belgeseller, diziler ve programlar, anime, ödüllü Netflix orijinal içerikleri ve daha fazlasından oluşan kapsamlı bir kütüphaneye sahiptir. İstediğiniz her zaman, istediğiniz kadar çok şey izleyin.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="sixth">
+                        <label for="sixth">  Netflix çocuklar için uygun mudur? </label>
+                        <div class="SSS">
+                            <p>Üyeliğinize dâhil olan Netflix Çocuk deneyimi, çocukların ailece izlenebilecek dizi ve filmleri kendilerine özel bir alanda izlemelerini sağlarken kontrolü ebeveynlere verir.
+                            <br><br>
+                            Çocuk profillerinde bulunan PIN korumalı ebeveyn kontrolleri sayesinde, çocukların izleyebileceği içeriklerin yetişkinlik düzeylerini kısıtlayabilir ve onların görmesini istemediğiniz belirli içerikleri engelleyebilirsiniz.</p>
+                        </div>
+                    </li>
+                </ul>
+               
+
+
+                <h3>İzlemeye hazır mısınız? Üye olmak ya da hesabınıza tekrar ulaşmak için tek yapmanız gereken e-posta <br>
+                adresinizi girmek.</h3>
+               
+                <div class="mail-buton">
+                
+                    <form class="mail">
+                        
+                        <input type="text" id="input" required="">
+                        <label for="input" class="label">E-posta adresi</label> 
+                    
+                    </form>
+                    <button>Başlayın <i class="fa-solid fa-chevron-right"></i></button> 
+                    
+                </div> 
+                
+            </div>
+        </div><hr>
+    </div>
+
+    
+
+
+
+  
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    <footer class="cls_footer">
+        <div class="text">
+           Sorularınız mı var? 
+            <a href=""> 0850-390-7444 </a> 
+             numaralı telefonu arayın.
+        </div>
+
+        <div class="inner_footer">           
+
+            <div class="footer-25">
+                <ul>
+                    <li><a href="https://www.netflix.com/tr/#:~:text=numaral%C4%B1%20telefonu%20aray%C4%B1n-,SSS,-Yard%C4%B1m%20Merkezi">SSS</a></li>
+                    <li><a href="https://www.netflix.com/tr/#:~:text=Yat%C4%B1r%C4%B1mc%C4%B1%20%C4%B0li%C5%9Fkileri">Yatırımcı İlişkileri</a></li>
+                    <li><a href="https://www.netflix.com/tr/#:~:text=%C4%B0zleme%20Yollar%C4%B1-,Kullan%C4%B1m%20Ko%C5%9Fullar%C4%B1,-Gizlilik">Kullanım Koşulları</a></li>
+                    <li><a href="https://www.netflix.com/tr/#:~:text=Kurumsal%20Bilgiler-,Bize%20Ula%C5%9F%C4%B1n,-H%C4%B1z%20Testi">Bize Ulaşın</a></li>
+                    <li class="dilbuton">
+                        <div class="dropdown">
+                            <button class="dropbtn" onclick="myFunction()"><i class="fa-solid fa-language" style="color: #fff;"></i> Türkçe
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content" id="myDropdown">
+                                <a href="#">Türkçe</a>
+                                <a href="#">English</a>
+                            </div>
+                        </div> 
+                    </li><br>
+                    <li>Netflix Türkiye (Burcu Buse Mazı)</li>                    
+                </ul>
+            </div>
+            
+            <div class="footer-25">
+                <ul>
+                    <li><a href="https://help.netflix.com/tr/">Yardım Merkezi</a></li>               
+                    <li><a href="https://www.netflix.com/tr/#:~:text=Yat%C4%B1r%C4%B1mc%C4%B1%20%C4%B0li%C5%9Fkileri-,%C4%B0%C5%9F%20%C4%B0mkanlar%C4%B1,-Hediye%20Kart%C4%B1%20Kullan">İş İmkanları</a></li>
+                    <li><a href="https://www.netflix.com/tr/#:~:text=Kullan%C4%B1m%20Ko%C5%9Fullar%C4%B1-,Gizlilik,-%C3%87erez%20Tercihleri">Gizlilik</a></li>
+                    <li><a href="https://www.netflix.com/tr/#:~:text=Bize%20Ula%C5%9F%C4%B1n-,H%C4%B1z%20Testi,-Yasal%20H%C3%BCk%C3%BCmler">Hız Testi</a></li> 
+                </ul>
+            </div>
+
+            <div class="footer-25">
+                <ul>
+                    <li><a href="https://www.netflix.com/tr/login?nextpage=https%3A%2F%2Fwww.netflix.com%2Fyouraccount">Hesap</a></li>               
+                    <li><a href="https://www.netflix.com/tr/#:~:text=%C4%B0%C5%9F%20%C4%B0mkanlar%C4%B1-,Hediye%20Kart%C4%B1%20Kullan,-%C4%B0zleme%20Yollar%C4%B1">Hediye Kartı Kullan</a></li>
+                    <li><a href="https://www.netflix.com/tr/#:~:text=Gizlilik-,%C3%87erez%20Tercihleri,-Kurumsal%20Bilgiler">Çerez Tercihleri</a></li>
+                    <li><a href="https://www.netflix.com/tr/#:~:text=H%C4%B1z%20Testi-,Yasal%20H%C3%BCk%C3%BCmler,-Sadece%20Netflix%27te">Yasal Hükümler</a></li>  
+                </ul>
+            </div>
+            <div class="footer-25">
+                <ul>
+                    <li><a href="https://www.netflix.com/tr/#:~:text=Hesap-,Medya%20Merkezi,-Yat%C4%B1r%C4%B1mc%C4%B1%20%C4%B0li%C5%9Fkileri">Medya Merkezi</a></li>               
+                    <li><a href="https://www.netflix.com/tr/#:~:text=Hediye%20Kart%C4%B1%20Kullan-,%C4%B0zleme%20Yollar%C4%B1,-Kullan%C4%B1m%20Ko%C5%9Fullar%C4%B1">İzleme Yolları</a></li>
+                    <li><a href="https://www.netflix.com/tr/#:~:text=%C3%87erez%20Tercihleri-,Kurumsal%20Bilgiler,-Bize%20Ula%C5%9F%C4%B1n">Kurumsal Bilgiler</a></li>
+                    <li><a href="https://www.netflix.com/tr/#:~:text=Yasal%20H%C3%BCk%C3%BCmler-,Sadece%20Netflix%27te,-Dil%20Se%C3%A7in">Sadece Netflix'te</a></li>  
+                </ul>
+            </div>
+         
+        </div>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

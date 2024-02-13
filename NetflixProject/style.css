@@ -1,0 +1,859 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body{  
+    padding: 0;
+    font-family: 'Netflix Sans',Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2;
+    color: rgba(255,255,255,0.7);
+    background-color: #000000;    
+}
+.header {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 10%, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0.8) 50%), url("fotograf/arkaplan.jpg");
+    min-height: 720px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.bold-text{
+    font-size: 48px;
+    font-weight: 900;
+    color: rgb(255,255,255);
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    display: block;
+    line-height: 1;
+    font-family:'Netflix Sans',Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.thin-text{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgb(255,255,255);
+    display: block;
+    margin: 16px 0 0;
+}
+hr{
+    border: 5px solid #232323;
+    margin: 0;
+    width: 100%;
+}
+
+/*    NAVBAR ALANI   */
+.nav{
+    overflow: hidden;
+    margin: 0 10% 0 10%;
+    z-index: 1;
+    justify-content: space-between;
+    display: flex;
+
+}
+.topnav-sol{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 12px;
+}
+.topnav-sol li{
+    list-style-type: none;
+}
+.topnav-sol li img{
+    max-width: 180px;  
+}
+.topnav-sag{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+.topnav-sag li{
+    padding: 15px;
+}
+.topnav-sag .btnlogin{
+    background-color: #D22F27;
+    color: #fff ;
+    border-radius: 5px;
+    border: 1px solid #D22F27;
+    width: 110px;
+    height: 36px;
+}
+.topnav-sag .btnlogin a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/*     Dil seçiniz dropdown alanı    */
+.dilbuton .dropdown {
+    float: left;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,0.7);
+    border-radius: 5px;
+    width: 120px;
+    height: 36px;
+    text-align: center;
+    padding-top: 2px;
+}
+  
+.dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+  
+.dropdown:hover .dropbtn, .dropbtn:focus {
+    background-color:  rgb(0 0 0 / 40%);
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #B4B4B6;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 8px;
+}
+  
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 17px;
+}
+  
+.dropdown-content a:hover {
+    background-color:  #7B2485;
+}
+
+.show {
+    display: block;
+}
+
+/*       FOOTER ALANI BAŞLANGICI      */
+.cls_footer{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 0 ; 
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+    /* margin:80px 5% 0 5%; */
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.cls_footer div{
+    padding: 10px;
+}
+
+.cls_footer .text {
+    list-style-type: none;
+    color: rgba(255,255,255,0.7);
+    font-size: 18px;
+    font-family: sans-serif;
+    padding-left: 9% ; 
+    text-align: left;
+    margin-top: 15px;
+}
+.cls_footer .text a{
+    color: rgba(255,255,255,0.7);
+    font-size: 1rem;
+    font-weight: 400;
+   
+}
+.inner_footer{
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    margin-bottom: 0;
+    margin:10px 5% 0 5%;
+}
+.footer-25{
+    color: rgba(255,255,255,0.7);
+    width: 25%;
+    bottom: 0;
+}
+.footer-25 ul{
+    list-style-type: none;
+    text-align: left;    
+}
+.footer-25 ul li{
+    padding: 4px;
+}
+.footer-25 ul li a{
+ color: rgba(255,255,255,0.7);
+ font-family: sans-serif;
+ font-style: normal;
+ font-weight: 200;
+ line-height: 30px;
+ font-size: 16px;
+}
+
+
+/*  HEADER DİV İÇERİSİNDEKİ FORM  */
+
+.mail{
+    position: relative;
+    margin: 0 14px;
+    width:400px;
+    height:60px;
+    border: 1px solid #B4B4B6;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+}
+  
+.mail input {
+    font-size: 20px;
+    width: 100%;
+    color: inherit;
+    filter: opacity(0%);
+    border: 0 solid transparent;
+    background: transparent;
+   
+}
+  
+.mail .label {
+    position: absolute;
+    z-index: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition-property: top, font-size, line-height;
+    transition-duration: 250ms;
+    pointer-events: none;
+    transition-timing-function: cubic-bezier(0.9, 0, 0.51, 1);
+    left: 10px;
+    top: 15px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.7);
+}
+  
+.mail input:focus ~ .label,
+.mail input:valid ~ .label {
+    top: -5px;
+    font-size: 16px;
+}
+
+.mail input:focus,
+.mail input:valid  {
+    transform: scaleX(1);
+}
+
+/*     BUTON     */
+.mail-buton{
+    display: flex;   
+    margin: 0 100px;
+}
+
+.mail-buton button {
+    border: transparent;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    background: rgb(193, 17, 25);
+    color: #fff;
+    border-radius: 4px;
+    width: 200px;
+    height:60px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border-radius: 0.25rem;
+  justify-content: center;
+}
+   
+.mail-buton button:hover {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, #B4B4B6 0%, #B4B4B6  100%);   
+}
+   
+button:active {
+    transform: translate(0em, 0.2em);
+}
+
+
+  
+/*     FOTO ÜZERİNE YAZI ALANI     */
+.header-text{
+   position: absolute;
+   top: 28%;
+   left: 20%; 
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   line-height: 1.5;
+  
+}
+
+.header-text h3 {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgb(255,255,255);
+}
+
+/*       İÇERİKLER ALANI BAŞLANGICI      */
+
+/*    İÇERİK-1   */
+.container{
+    justify-content: center;
+    color: rgb(255,255,255);
+    text-align: center;
+    height: 100%;
+    box-sizing: border-box;       
+}
+.content{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-text,
+.content-screen{
+    width: 50%;
+    height: 550px;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    padding-top: 5%;
+}
+.content-text{
+    text-align: left;
+    line-height: 1.5;
+    margin-left: 150px;
+    padding-top: 5%;
+    z-index: 1;
+}
+.content-screen{
+    align-items: center;
+    margin-left: 150px;
+    padding: 0;
+    z-index: 1;
+    display: block;
+    position: relative;
+}
+@media screen and (min-width: 960px){
+.content-screen{
+     padding-left: 0.375rem;}
+}
+
+.ekran{
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-top: 25px;
+}
+.ekran img{
+    width: 561px;
+    height: 421px;
+    overflow-clip-margin: content - box;
+    overflow: clip;
+    border: 0;
+}
+/*      İÇERİK-2    */
+.ekranici{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: -1;
+    max-width: 73%;
+    max-height: 54%;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+video{
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    display: inline-block;
+    vertical-align: baseline;
+}
+img{
+    width: 100%;
+    overflow-clip-margin: initial;
+    overflow: clip;
+}
+.ekrandisi{
+    overflow: hidden;
+    display: flex;
+    position: absolute;
+    left: 50%;
+    bottom: 8%;
+    transform: translateX(-50%);
+    margin: 0 auto;
+    background: rgb(0,0,0);
+    -webkit-box-align: center;
+    border: 2px solid rgba(128,128,128,0.7);
+    box-shadow: 0 0 32px 0 rgb(0,0,0);
+    border-radius: 12px;
+    z-index: 1;
+    align-items: center;
+    min-width: 240px;
+    height: 104px;
+    justify-content: center;
+}
+.ekrandisi img{
+    margin: 0 1rem 0 0;
+    display: block;
+    text-align: center;
+}
+.textt{
+    display: block;
+    text-align: left;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin: 5px 0;
+    
+}
+.boldtext{
+    color: rgb(255,255,255);
+    font-weight: 500;
+    font-size: 16px;
+}
+.thintext{
+    font-weight: 400;
+    color: #0071eb;
+    font-size: 14px;
+}
+.icon{
+    width: 48px;
+    height: 60px;
+    outline: 2px solid rgb(0,0,0);
+    outline-offset: -2px;
+    display: block;
+    background: url(fotograf/download-icon.gif) center center no-repeat;
+    background-size: 100%;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+/* responsive */
+@media screen and (min-width: 1280px){
+    .ekrandisi {
+        width: 50%;
+    }
+}
+@media screen and (min-width: 960px)
+{
+    .ekrandisi {
+        padding: 6px 12px;
+    }
+}
+@media screen and (min-width: 600px){
+    .ekrandisi {
+        padding: 6px 12px;
+    }
+}
+/*      İÇERİK-3      */
+.ekranici1{
+    z-index: -1;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    max-width: 63%;
+    max-height: 47%;
+    position: absolute;
+    top: 34%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*     İÇERİK- 5   SSS Alanı */
+.content-sss{
+    
+    padding: 10px 12%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.accordion{
+    margin: 60px 10px;
+    width: 100%;
+    max-width: 100%;
+}
+.accordion li{
+    list-style-type: none;
+    width: 100%;
+    padding: 5px;
+}
+.accordion li label{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    background-color: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+    font-size: 24px;
+    font-weight: 400;
+    color: rgb(255,255,255);
+    line-height: 1;
+    font-family:'Netflix Sans',Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.accordion li label:hover{
+    background-color:#444444;
+}
+.accordion li label::after{
+    content: '+';
+    font-size: 70px;
+    font-weight: 200;
+    position: absolute;
+    right: 20px;
+    bottom: 5px;
+    transition: transform;
+}
+input[type="radio"]{
+    display: none;
+}
+.accordion .SSS{
+    background: #303030;
+    color: rgb(255,255,255);
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1.25;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+.accordion input[type="radio"]:checked + label + .SSS{
+    max-height: 600px;
+    padding: 5px 20px;
+}
+.accordion input[type="radio"]:checked + label::after{
+    transform: rotate(135deg);
+}
+.content-sss h3 {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgb(255,255,255);
+}
+.content-sss .mail-buton{
+    margin-left: 25%;
+}
+
+
+/*         LOGIN PAGE    */
+
+
+.bg-img{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.574) 10%, rgba(0, 0, 0, 0.574) 50%, rgba(0, 0, 0, 0.574) 50%), url("fotograf/arkaplan.jpg");
+    min-height: 720px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+ .header1{
+    width: 100%;
+} 
+
+.content-form {
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    margin: 0 auto;
+    padding: 0 5%;
+    min-width: 450px;
+    max-width: 570px;
+    height: 800px;
+}
+
+
+.login-card{
+    background-color:rgba(0, 0, 0, 0.7);
+    display: flex;
+    z-index: 1;
+    border-radius: 4px;
+    box-sizing: border-box;
+    flex-direction: column;
+    margin: 0;
+    text-align: inherit;
+    width: 500px;
+    height: 750px;
+    min-height: 707px;
+    padding: 48px 68px;  
+    
+}
+.form-header{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.25;
+    color: rgb(255,255,255);
+    margin-bottom: 28px;
+    display: block;
+}
+.form-control {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    gap: 30px;
+    text-align: inherit;
+    width: 315px;
+    height: 300px;
+   
+}
+
+.input-field {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    position: relative;
+    min-width: 200px;
+    padding: 0;
+    width: 100%;
+    height: 56px;
+   align-items: center; 
+   -webkit-box-align: center;
+   display: inline-flex;
+   gap: 2px;
+   letter-spacing: normal;
+
+    
+}
+
+.input {
+    margin-top: 40px;
+    width: 314px;
+    outline: none;
+    border-radius: 8px;
+    height: 70px;
+    border: 2px solid #585858;
+    background: transparent;
+    padding-left: 10px;
+    color: rgba(255,255,255);
+    font-size: 16px;
+    
+}
+.input:focus {
+    border: 1.5px solid #ffffff;
+    
+}
+.input-field .label {
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    color: rgba(255,255,255,0.7);
+    transition: all 0.3s ease;
+    pointer-events: none;
+    z-index: 2;
+}
+.input-field .input:focus ~ .label,
+.input-field .input:valid ~ .label {
+    top: 10px;
+    left: 5px;
+    font-size: 16px;
+    color: rgba(255,255,255,0.7);
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.submit-btn {
+    height: 40px;
+    width: 314px;
+    padding: 6px 16px;
+    text-align: center;
+    border-radius: 4px;
+    border: 0;
+    color: rgba(255, 255, 255);
+    font-size: 16px;
+    font-weight: 500;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    background: rgb(229,9,20);
+    transition: all 0.3s cubic-bezier(0.15, 0.83, 0.66, 1);
+    cursor: pointer;
+}
+  
+.submit-btn:hover {
+    box-shadow: 0px 0px 0px 2px #ffffff, 0px 0px 0px 4px #0000003a;
+}
+.form-control a{
+    color: rgb(255,255,255);
+    text-decoration: none;
+    text-align: center;
+    margin-top: -80px;
+ 
+}
+.login-footer{
+    width: 100%;
+    position: relative;
+    
+}
+.login-footer .text a,
+.robot a{
+    color: rgb(255,255,255);
+    text-decoration: none;
+}
+
+
+/*       BROWSER SAYFASI        */ 
+
+/* NAVBAR ALANI */
+
+.topnav-sol1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    height: 60px;
+    list-style: none;
+}
+.topnav-sol1 img{
+    height: 40px;
+    width: 100px;
+}
+/* PROFİLE GİDEN GÜLÜCÜĞÜN ALANI */
+.profil{
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.profil i{
+    font-size: 15px;
+    color: rgb(255,255,255);
+}
+
+
+
+
+
+/*    RESİM ÜZERİNDEKİ BUTONLAR    */
+
+.play-buton{
+    display: flex;   
+    margin: 10px;
+    justify-content: center;
+    margin-left: 100px;
+}
+.play-buton button,
+.play-buton button i{
+    margin: 10px;
+    text-align: left;
+}
+
+.play-buton .play {
+    width: 150px;
+    height:50px;
+    background-color: rgba(255, 255, 255); 
+    color: #000;
+    border: transparent;
+    border-radius: 4px;
+    font-size: 24px;
+    font-weight: 500;
+    border-radius: 4px;
+  justify-content: center;
+}
+.play-buton .info {
+    width: 250px;
+    height:50px;
+    background-color: #63686f; 
+    color: rgba(255, 255, 255) ;
+    border: transparent;
+    border-radius: 4px;
+    font-size: 24px;
+    font-weight: 500;
+    border-radius: 4px;
+    justify-content: center;
+}
+.play-buton button:hover {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, #B4B4B6 0%, #B4B4B6  100%);   
+}
+
+/*   Fotoğraf Slider Alanı  */
+.container1{
+    display: block;
+}
+
+.content-browser{
+    margin-left: 8%;
+}
+.column {
+    float: left;
+    width: 15%;
+    padding: 10px;
+}
+  
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*   PROFİL YÖNETİMİ SAYFASI   */
+.profil-card{
+    background-color: #191919;
+    width: 1000px;
+    height: 600px;
+    display: block;
+    margin: 100px auto;
+}
+.profil-card h1{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 1.25;
+    text-align: center;
+    padding-top: 10px;
+   
+}
+.profil-card img{
+    width: 200px;
+    border-radius: 4px;
+}
+.profil-card ul{
+    list-style-type: none;
+    display: flex;
+    
+}
+.profil-card ul li{
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+.profil-card ul li h3{
+    color: grey;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 1;
+    text-align: center;
+    padding-top: -20px;
+}
+.btnprofil{
+    width: 350px;
+    height: 60px;
+    background-color: rgb(56, 54, 54);
+   margin: 10px 330px;
+}
+.btnprofil a{
+    color: grey;
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: none;
+}
